@@ -1,0 +1,342 @@
+// COLORS //
+$white: #FFFFFF;
+$grey: #808080;
+$grey_light: #E8E8E8;
+$black: #000000;
+$orange: #FF5D00;
+// COLORS //
+
+.wrap
+{
+	max-width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	padding-left: 40px;
+	padding-right: 40px;
+} 
+
+.wrap2
+{
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+}
+
+
+
+header
+{
+	background-image: url("../images/Image 1@2x.jpg");
+	background-size: cover;
+	height: 750px;
+}
+
+h1
+{
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-size: 140px;
+	padding-top: 15%;	
+	position: relative;
+	z-index: 30;
+
+
+	span
+	{
+		margin-left: -26px;
+	}
+}
+
+.top_menu
+{
+	display: flex;
+	padding: 46px 0 0 78px;
+	align-self: center;
+	justify-content: space-between;
+}
+
+.top_menu>p:nth-of-type(2)
+{
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 2.7px;
+	color: $white;
+}
+
+.img_bg
+{
+	width: 100%;
+}
+
+.top_menu>p:first-of-type
+{
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2.1px;
+	color: $white;
+	align-self: center;
+}
+
+.top_menu>div>img
+{
+	height: 24px;
+}
+
+.check_my_story
+{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: underline;
+	color: $white;
+	font-size: 76px;
+	margin-left: auto;
+	padding-top: 30%;
+	line-height: 102px;
+}
+
+
+#arrow_down
+{
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+    padding-top: 92vh;
+    cursor: pointer;
+}
+
+
+header>section>div>span
+{
+	border: 2px solid #FF5D00;
+	transform: rotate(25deg);
+	height: 648px;
+	position: absolute;
+	left: 500px;
+}
+
+.section2 span
+{
+	border: 2px solid #FF5D00;
+	transform: rotate(30deg);
+	height: 648px;
+	position: absolute;
+	left: 600px;
+	top: 2390px;
+}
+
+header>section>div
+{
+	display: flex;
+}
+
+
+.section1
+{
+	padding-top: 180px;
+	padding-bottom: 180px;
+}
+
+label
+{
+	display: block;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	letter-spacing: 20.25px;
+	color: $orange;
+	padding-bottom: 120px;
+}
+
+.img_s2
+{
+	display: block;
+	margin: auto;
+	width: 80%;
+
+}
+
+.imgplay
+{
+	position: relative;
+}
+
+.play
+{
+	display: flex;
+	width: 251px;
+	height: 251px;
+	background: transparent linear-gradient(180deg, #FA6C1A 0%, #FEA875 100%) 0% 0% no-repeat padding-box;
+	border-radius: 100%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	transform: translateY(-50%);
+}
+
+.play>p
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 3px;
+	color: white;
+	margin: auto;
+}
+
+.bloc_txt
+{
+	width: 80%;
+	margin: auto;
+	border-top: 2px solid $grey;
+	border-bottom: 2px solid $grey;
+
+	div
+	{
+		display: flex;
+		padding-top: 15px;
+		justify-content: space-between;
+	}
+}
+
+
+h2
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 42px;
+	color: $black;
+}
+
+h3
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: $black;
+	padding-top: 15px;
+}
+
+.section2
+{
+	background: #E8E8E8 0% 0% no-repeat padding-box;
+	padding-top: 180px;
+	padding-bottom: 180px;
+}
+
+
+.s2_b1
+{
+	max-width: 400px;
+	text-align: center;
+	padding-top: 300px;
+	border-bottom: 2px solid $grey;
+
+	h2
+	{
+		padding-top: 30px;
+		font-size: 28px;
+		border-top: 2px solid $grey;
+	}
+}
+
+.s2_b2
+{
+
+	max-width: 730px;
+	padding-top: 40px;
+	margin-left: auto;
+	border-bottom: 2px solid $grey;
+
+	h2
+	{
+		border-top: 2px solid $grey;
+		font-size: 36px
+	}
+}
+
+.container_s2
+{
+	display: flex;
+}
+
+.section3
+{
+	padding-top: 180px;
+	padding-bottom: 180px;
+}
+
+.container_s3
+{
+	display: flex;
+	justify-content: space-between;
+	div
+	{
+		h2
+		{
+			font-size: 36px;
+		}
+
+		div
+		{
+			display: flex;
+			padding-top: 15px;
+			justify-content: space-between;
+		}
+	}
+}
+
+.container_s3>div
+{
+	border-bottom: 2px solid $grey;
+}
+
+.container_s3>div>div
+{
+	border-top: 2px solid $grey;
+}
+
+
+.talk_to_me
+{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 70px;
+	line-height: 80px;
+	letter-spacing: 0.7px;
+	width: 40%;
+	margin: auto;
+	padding-top: 175px;
+}
+
+footer
+{
+	padding-top: 180px;
+	padding-bottom: 180px;
+	background: #000000 0% 0% no-repeat padding-box;
+}
+
+#insta_footer
+{
+	display: block;
+	margin: auto;
+}
+
+.ul_footer
+{
+	text-align: center;
+	font-family: Roboto;
+	font-size: 60px;
+	line-height: 80px;
+	padding-bottom: 100px;
+
+	li
+	{
+		a
+		{
+			color: $white;
+			text-decoration: none;
+		}
+	}
+}

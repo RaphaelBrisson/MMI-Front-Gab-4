@@ -1,0 +1,3 @@
+"C:\Web\Projets\Karnish\www\css\dart-sass\sass" "C:\Web\Projets\Karnish\www\css\scss\index.scss" "C:\Web\Projets\Karnish\www\css\index.css" --watch
+
+"C:\Web\Projets\Karnish\www\css\dart-sass\sass" "C:\Web\Projets\Karnish\www\css\scss\index_res.scss" "C:\Web\Projets\Karnish\www\css\index_res.css" --watch
